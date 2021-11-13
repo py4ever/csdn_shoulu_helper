@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+  "name": "CSDN社区收录助手",
+  "version": "1.0.4",
+  "description": "社区辅助插件",
+  "icons": {
+  },
+  "author": "levin",
+  "permissions":[
+     "notifications",
+     "storage"
+  ],
+  "content_scripts": [
+    {
+      "js": [
+        "index.js"
+      ],
+      "css": [
+        "style.css"
+      ],
+      "run_at": "document_end",
+      "matches": [
+        "https://ccloud.csdn.net/*"
+      ]
+    }
+  ]
+}
