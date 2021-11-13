@@ -1,0 +1,10 @@
+#float_panel {
+    border:1px solid #c0c0c0;
+    width: 100px;
+    height: 60px;
+    margin:0 auto;
+    padding:5px;
+    background:#f0f0f0;
+    z-index: 100;
+}
+
